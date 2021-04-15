@@ -15,7 +15,7 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
       </HeroBg>
       <HeroContent>
-        <HeroH1>HeroH1 here</HeroH1>
+        <HeroH1>James Ohsako</HeroH1>
         <HeroP>HeroP here</HeroP>
         <HeroBtnWrapper>
           <Button to='projects' smooth={true} duration={500} spy={true} exact='true' offset={-80} onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>My Projects {hover ? <ArrowForward /> : <ArrowRight />} </Button>
